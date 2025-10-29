@@ -1,82 +1,91 @@
-# 🐞 Bug Morph Lab
+# Bug Morph Lab
 
-**Bug Morph Lab** is an interactive web app that transforms real insect species into creative, AI-generated Halloween characters.  
-Built with **Streamlit** and **OpenAI’s image generation API**, this project combines entomology, AI, and education to inspire curiosity about biodiversity in a fun, visual way.  
-
----
-
-## ✨ Features
-- 🎨 Generate AI illustrations of insects as themed characters (e.g., superheroes, Halloween creatures).  
-- 🪲 Include scientific names, creative names, and fun facts.  
-- ⚡ Simple web interface powered by Streamlit.  
-- 🧠 Encourages STEM learning through art and AI.  
+**Bug Morph Lab** is an interactive web app that transforms real insect species into creative, AI-generated Halloween characters.
+Built with **Streamlit** and **OpenAI’s image generation API**, this project combines entomology, AI, and education to inspire curiosity about biodiversity in a fun, visual way.
 
 ---
 
-## 🧠 Tech Stack
-- **Python 3.10+**  
-- **Streamlit**  
-- **OpenAI API**  
-- **Pillow**, **Requests**, **OS**, **JSON**
+## Features
+
+* Generate AI illustrations of insects as themed characters (e.g., superheroes, Halloween creatures).
+* Include scientific names, creative names, and fun facts.
+* Simple web interface powered by Streamlit.
+* Encourages STEM learning through art and AI.
 
 ---
 
-## 🚀 Getting Started
+## Tech Stack
 
-### 1️⃣ Clone the repository
+* Python 3.10+
+* Streamlit
+* OpenAI API
+* Pillow, Requests, OS, JSON
+
+---
+
+## Getting Started
+
+### 1. Clone the repository
+
 ```bash
-git clone https://github.com/Skvalicharla/bug-morph-lab.git
-cd bug-morph-lab
+git clone https://github.com/Skvalicharla/Bug_Morph_Lab_Insect_Zoo_2025.git
+cd Bug_Morph_Lab_Insect_Zoo_2025
 ```
 
-### 2️⃣ Install dependencies
-```bash
-pip install -r requirements.txt
-```
+### 2. Add your OpenAI API key
 
-### 3️⃣ Add your OpenAI API key
 Create a file named `.env` in the project root and add:
+
 ```
 OPENAI_API_KEY=your_api_key_here
 ```
 
-> ⚠️ **Important:** Make sure `.env` is included in your `.gitignore` file so your API key remains private.
+> Important: Make sure `.env` is included in your `.gitignore` file so your API key remains private.
 
-### 4️⃣ Run the app
+### 3. Run the app
+
 ```bash
-streamlit run app.py
+streamlit run halloween_bugs_app.py
 ```
 
 ---
 
-## 📁 File Structure
+## File Structure
+
 ```
-bug-morph-lab/
+InsectZoo/
 │
-├── app.py                # Main Streamlit app
-├── requirements.txt      # Dependencies
-├── .env                  # Your private API key (not uploaded)
-├── .gitignore            # Ignore sensitive and temp files
-└── README.md             # Project documentation
+├── halloween_bugs_app.py  # Main Streamlit app
+├── .env                   # Your private API key (not uploaded)
+├── .gitignore             # Ignore sensitive and temp files
+├── README.md              # Project documentation
+└── LICENSE                # MIT License
 ```
+
+Local folders not tracked by Git: `venv/`, `image_cache/`, `.idea/`
 
 ---
 
-## 📸 Preview
-*(Add a screenshot or sample generated image here)*  
-Example:  
+## Preview
+
+*(Add a screenshot or sample generated image here)*
+
+Example:
+![Sample Bug Morph](sample_bug.png)
+
 > “A dragonfly morphed into a vampire with glowing wings and fangs.”
 
 ---
 
-## 📜 License
-Licensed under the **MIT License** – see the [LICENSE](./LICENSE) file for details.  
-You’re free to use and adapt this for educational or creative purposes with credit to **Sruthi**.
+## License
+
+Licensed under the MIT License – see the LICENSE file for details.
+You’re free to use and adapt this for educational or creative purposes with credit to **Sruthi Valicharla**.
 
 ---
 
+## Acknowledgements
 
-## 💬 Acknowledgements
-- 🧠 **OpenAI** — for image generation  
-- ⚙️ **Streamlit** — for the web app framework  
-- 🪲 Inspired by real-world entomology and curiosity-driven learning  
+* OpenAI — for image generation
+* Streamlit — for the web app framework
+* Inspired by real-world entomology and curiosity-driven learning
