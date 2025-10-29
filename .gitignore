@@ -1,4 +1,6 @@
 venv/
 *.pyc
+image_cache/
+.idea/
 __pycache__/
 .env
