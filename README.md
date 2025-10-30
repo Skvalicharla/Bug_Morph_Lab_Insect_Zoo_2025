@@ -79,7 +79,7 @@ Example:
 
 ## License
 
-Licensed under the MIT License – see the LICENSE file for details.
+Licensed under the [MIT License](./LICENSE.txt) – see the LICENSE file for details.
 You’re free to use and adapt this for educational or creative purposes with credit to **Sruthi Valicharla**.
 
 ---
