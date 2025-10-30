@@ -7,8 +7,8 @@ Built with **Streamlit** and **OpenAI’s image generation API**, this project c
 
 ## Features
 
-* Generate AI illustrations of insects as themed characters (e.g., superheroes, Halloween creatures).
-* Include scientific names, creative names, and fun facts.
+* Generate AI illustrations of insects as themed characters (e.g.,Halloween creatures).
+* Include creative names, and fun facts.
 * Simple web interface powered by Streamlit.
 * Encourages STEM learning through art and AI.
 
