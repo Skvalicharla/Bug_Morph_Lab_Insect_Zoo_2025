@@ -68,7 +68,6 @@ Local folders not tracked by Git: `venv/`, `image_cache/`, `.idea/`
 
 ## Preview
 
-*(Add a screenshot or sample generated image here)*
 
 Example:
 ![Sample Bug Morph](sample_bug.png)
