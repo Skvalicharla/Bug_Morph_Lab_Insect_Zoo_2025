@@ -73,7 +73,7 @@ Local folders not tracked by Git: `venv/`, `image_cache/`, `.idea/`
 Example:
 ![Sample Bug Morph](sample_bug.png)
 
-> “A dragonfly morphed into a vampire with glowing wings and fangs.”
+> “A ladybug morphed into a witch with a tiny hat and broom.”
 
 ---
 
