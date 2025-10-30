@@ -56,7 +56,7 @@ streamlit run halloween_bugs_app.py
 InsectZoo/
 │
 ├── halloween_bugs_app.py  # Main Streamlit app
-├── .env                   # Your private API key (not uploaded)
+├── .env                   # Your private API key 
 ├── .gitignore             # Ignore sensitive and temp files
 ├── README.md              # Project documentation
 └── LICENSE                # MIT License
