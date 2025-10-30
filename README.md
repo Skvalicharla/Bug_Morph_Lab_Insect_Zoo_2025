@@ -60,9 +60,11 @@ InsectZoo/
 ├── .gitignore             # Ignore sensitive and temp files
 ├── README.md              # Project documentation
 └── LICENSE                # MIT License
+└── requirements.txt       # Packages required
+└── sample_bug.png         # Example image
 ```
 
-Local folders not tracked by Git: `venv/`, `image_cache/`, `.idea/`
+Local folders not tracked by Git: `venv/`, `image_cache/`, `.idea/`,`.env/` 
 
 ---
 
